@@ -1,0 +1,22 @@
+ol.steps {
+	margin: 20px 0;
+	background: url(ul_bg_repeat.gif) repeat-y; /*--Bg of the order numbers--*/
+	padding: 0 0 0 35px; /*--Distance between the order numbers--*/
+	border: 1px solid #111;
+}
+ol.steps li {
+	margin: 0;
+	padding: 15px 15px;
+	color: #cbff78;
+	font-size: 1.7em;
+	font-weight: bold;
+       /*--The bevel look is styled with various colors in the border properties below--*/
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #353535;
+	border-right: 1px solid #333;
+	border-left: 1px solid #151515;
+	background: #222;
+}
+ol.steps li.first { border-top: 1px solid #353535; }
+ol.steps li.last { border-bottom: none; }
+
